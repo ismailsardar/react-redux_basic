@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+/* //my costom style */
+section{
+  display: grid;
+  grid-gap: 0.5rem;
+  padding: 1rem;
+}
+article{
+  color: white;
+  padding: 0.5rem;
+  background-color: purple;
+}
+
+@media (min-width: 600px) {
+  section{
+    grid-template-columns: auto auto;
+  }
+}
+@media (min-width: 768px) {
+  section{
+    grid-template-columns: auto auto auto;
+  }
+}
