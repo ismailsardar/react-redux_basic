@@ -1,5 +1,6 @@
 import './App.css';
 import CounterView from './features/counter/Counter';
+import Posts from './features/posts/Posts';
 
 // import Counter from './components/Counter';
 // import Todos from './components/Todos';
@@ -15,6 +16,8 @@ function App() {
 
       <h1>Todo-App with Redux-Toolkit</h1>
       <CounterView />
+      <h1>Fatch-API with Redux-Toolkit</h1>
+      <Posts />
     </div>
   );
 }
