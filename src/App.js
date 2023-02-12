@@ -1,5 +1,6 @@
 import './App.css';
 import MyCounterView from './features/myCounter/MyCounterView';
+import UserView from './features/users/UserView';
 // import CounterView from './features/counter/Counter';
 // import Posts from './features/posts/Posts';
 // import RabbilPages from './pages/RabbilPages';
@@ -27,7 +28,8 @@ function App() {
       {/* <ToDoPage /> */}
 
       {/* ismile project */}
-      <MyCounterView />
+      {/* <MyCounterView /> */}
+      <UserView />
     </div>
   );
 }
